@@ -3,6 +3,7 @@
 ///
 
 import Foundation
+#if os(macOS)
 import AppKit
 import WebKit
 
@@ -131,3 +132,4 @@ public class DesktopSharedApplication: SharedApplication {
         loadingStatusDelegate?.dismissLoading()
     }
 }
+#endif
