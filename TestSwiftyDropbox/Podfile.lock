@@ -7,7 +7,7 @@ DEPENDENCIES:
   - SwiftyDropbox (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Alamofire
 
 EXTERNAL SOURCES:
@@ -20,4 +20,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f1cc2bd4e2b8e73913fb7bdce2c11926bb11e047
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.9.3
