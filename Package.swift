@@ -1,3 +1,4 @@
+// swift-tools-version:5.2
 ///
 /// Copyright (c) 2016 Dropbox, Inc. All rights reserved.
 ///
