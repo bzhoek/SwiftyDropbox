@@ -3,6 +3,7 @@
 ///
 
 import Foundation
+#if os(iOS)
 import SafariServices
 import UIKit
 import WebKit
@@ -443,3 +444,4 @@ open class MobileSafariViewController: SFSafariViewController, SFSafariViewContr
     }
     
 }
+#endif

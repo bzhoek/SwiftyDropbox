@@ -14,6 +14,9 @@ let package = Package(
     targets: [
     .target(
         name: "SwiftyDropbox",
-        dependencies: ["Alamofire"]),
+        dependencies: ["Alamofire", "DBChunkInputStream"]),
+    .target(
+        name: "DBChunkInputStream",
+        dependencies: []),
     ]
 )
